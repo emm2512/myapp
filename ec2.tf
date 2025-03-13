@@ -6,6 +6,7 @@ resource "jenkins-terra" "ec2" {
     tags {
         Name = "myproject"
         env = "dev"
+        owner = "qa"
     }
 
 }
