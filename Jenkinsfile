@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-               git branch: 'main' url: 'https://github.com/emm2512/tfcofig.git'
+               git branch: 'main', url: 'https://github.com/emm2512/tfcofig.git'
             }
         }
         stage('Terraform init') {
