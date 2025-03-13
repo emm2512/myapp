@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                sh 'https://github.com/emm2512/myapp.git'
+                sh 'https://github.com/emm2512/tfcofig.git'
             }
         }
         stage('Terraform init') {
